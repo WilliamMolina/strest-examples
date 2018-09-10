@@ -1,0 +1,25 @@
+{
+  "name": "strest-example",
+  "version": "1.0.0",
+  "description": "Testing StREST package with express API",
+  "main": "index.js",
+  "scripts": {
+    "test": "strest test/api.test.yml",
+    "start":"node index.js"
+  },
+  "keywords": [
+    "rest",
+    "test",
+    "node",
+    "express",
+    "strest"
+  ],
+  "author": "William Molina",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "strest-cli": "^1.0.2"
+  }
+}
